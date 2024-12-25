@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+body{
+    margin: 0;
+    width: 1205px;
+}
+.container{
+    width: 1140px;
+}
+.header{
+    display: flex;
+    background: rgb(247, 154, 131);
+    width: 1255px;
+    height: 114px;
+position: fixed;
+z-index: 100;
+
+}
+.left-part,.right-part{
+   
+    height: 114px;
+}
+.left-part{
+    width: 20%;
+    display: flex;
+    justify-content:flex-start;
+    
+}
+.right-part{
+    width: 80%;
+    display: flex;
+    justify-content:flex-end;
+
+}
+
+.seven-up{
+    width: 80px;
+    height: 75px;
+   margin-left: 25px;
+   margin-top: 10px;
+}
+.right-part{
+    display: flex;
+    flex-direction: row;
+    
+  
+}
+.header-link{
+   display: flex;
+   flex-direction: row;
+  gap: 15px;
+  margin-top: 45px;
+  padding-right: 100px;
+  }
+.link-1,.link-2,.link-3{
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+   width: 30px;
+   height: 30px;
+  gap: 5px;
+  margin-top: 40px;
+  padding-right: 230px;
+}
+.header-2{
+    width: 1255px;
+    height:570px ;
+}
+.img-2{
+    width: 1255px;
+  height: 570px;
+   
+}
+.header-2h1{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    bottom: 400px;
+    left: 89px;
+    font-family: "Lilita One", serif;
+    font-weight:800 ;
+    width: 500px;
+   
+}
+.button-1{
+    
+    border-radius: 30px;
+    border: 2px solid #fff;
+   font-size: 17px;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   color: white;
+   background: transparent;
+   width: 150px;
+   height: 50px;
+   position: relative;
+   bottom: 422px;
+   left: 82px;
+   
+}
+.header-3{
+    width: 1255px;
+    height: 570px;
+}
+
+.img-3{
+    width: 1255px;
+    height: 600px;
+    
+
+}
+.recipe{
+   
+    width: 550px;
+    height: 200px;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    position: relative;
+left: 380px;
+bottom: 390px;
+}
+.recipe h1,p{
+   
+    color: white;
+    position: relative;
+    left: 90px;
+    top: 20;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.recipe h1{
+    position: relative;
+    left: 180px;
+    top: 20px;
+    font-size: 34px;
+}
+.recipe p{
+    position: relative;
+    top: 10px;
+    left: 80px;
+}
+.button-2{
+     
+    border-radius: 30px;
+    border: 2px solid #fff;
+   
+   font-size: 17px;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   color: white;
+   background: transparent;
+   width: 180px;
+   height: 40px;
+   position: relative;
+   bottom: -20px;
+   left: 160px;
+   
+}
+.header-4{
+    width: 1255px;
+    height: 600px;
+}
+
+.img-4{
+    width: 1255px;
+    position: relative;
+margin-top: 30px;
+}
+.store-locater{
+    width: 550px;
+    height: 200px;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    position: relative;
+left: 380px;
+bottom: 380px;
+}
+.store-locater h1{
+    padding-left: 140px;
+    padding-top: 30px;
+}
+.store-locater p{
+    font-size: 15px;
+    color: white;
+    padding-right: 100px;
+}
+.button-3{
+       
+    border-radius: 30px;
+   border: 2px solid #fff;
+   font-size: 17px;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   color: white;
+   background: transparent;
+   width: 180px;
+   height: 40px;
+   margin-left: 180px;
+   margin-bottom: 40px;
+}
+.footer{
+    width: 1255px;
+    height: 150px;
+    background: #3e3e3e;
+}
+.footer-1{
+    position: absolute;
+   
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    word-spacing: 10px;
+    color: #fff;
+    padding-left: 190px;
+    padding-top: 50px;
+}
+.footer-2{
+    position: absolute;
+   
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    
+    color: #fff;
+    padding-left: 340px;
+    padding-top: 100px;
+}
